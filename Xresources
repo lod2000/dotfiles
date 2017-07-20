@@ -1,0 +1,11 @@
+Xft.antialias:	true
+Xft.hinting:	true
+Xft.rgba:	rgb
+Xft.hintstyle:	hintfull
+Xft.dpi:	220
+
+URxvt.scrollstyle: xterm
+URxvt.background: black
+URxvt.foreground: gray
+URxvt.scrollBar: false
+URxvt.font: xft:DejaVuSansMono:size=8
