@@ -177,6 +177,9 @@ exec feh --bg-scale ~/Pictures/wallpapers/outerplanets-xps.png
 bindsym Mod4+u exec ~/.local/bin/fuzzy_lock.sh
 exec xautolock -time 15 -locker ~/.local/bin/fuzzy_lock.sh & 
 
+# Compton
+exec compton -b
+
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a
 # keysym-based config which used their favorite modifier (alt or windows)
