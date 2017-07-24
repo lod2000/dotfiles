@@ -171,7 +171,7 @@ bar {
 for_window [title=" - Chromium$"] border none
 
 # Set background
-exec feh --bg-scale ~/Pictures/wallpapers/outerplanets-xps.png
+exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/outerplanets-xps.png
 
 # i3lock
 bindsym Mod4+u exec ~/.local/bin/fuzzy_lock.sh
