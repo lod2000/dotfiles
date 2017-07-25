@@ -175,10 +175,10 @@ exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/outerplanets-xps.png
 
 # i3lock
 bindsym Mod4+u exec ~/.local/bin/fuzzy_lock.sh
-exec xautolock -time 15 -locker ~/.local/bin/fuzzy_lock.sh & 
+exec --no-startup-id xautolock -time 15 -locker ~/.local/bin/fuzzy_lock.sh & 
 
 # Compton
-exec compton -b
+exec --no-startup-id compton -b
 
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a
@@ -189,4 +189,4 @@ exec compton -b
 #
 # Please remove the following exec line:
 #######################################################################
-exec i3-config-wizard
+# exec i3-config-wizard
