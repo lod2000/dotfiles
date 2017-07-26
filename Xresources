@@ -9,3 +9,5 @@ URxvt.background: black
 URxvt.foreground: gray
 URxvt.scrollBar: false
 URxvt.font: xft:DejaVuSansMono:size=8
+
+rofi.font: xft:DejaVuSansMono:size=8
