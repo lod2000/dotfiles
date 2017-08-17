@@ -7,3 +7,7 @@
 :set softtabstop=0
 :set expandtab
 :set smarttab
+execute pathogen#infect()
+filetype plugin indent on
+
+set spelllang=en

@@ -165,13 +165,14 @@ bindsym Mod4+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+        tray_output none
 }
 
 # Remove borders for specific windows
 for_window [title=" - Chromium$"] border none
 
 # Set background
-exec --no-startup-id feh --bg-scale ~/Pictures/wallpapers/outerplanets-xps.png
+exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/outerplanets-xps.png
 
 # i3lock
 bindsym Mod4+u exec ~/.local/bin/fuzzy_lock.sh
@@ -182,6 +183,9 @@ exec --no-startup-id compton -b
 
 # Multimedia keys
 exec --no-startup-id xbindkeys -p
+
+# Dropbox
+exec --no-startup-id dropbox-cli start
 
 #######################################################################
 # automatically start i3-config-wizard to offer the user to create a
