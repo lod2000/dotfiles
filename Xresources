@@ -45,5 +45,4 @@ URxvt.font:         xft:DejaVuSansMono:size=8
 *.color7:       #c5c8c6
 *.color15:      #ffffff
 
-
 rofi.font: xft:DejaVuSansMono:size=8
