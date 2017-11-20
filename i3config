@@ -103,8 +103,8 @@ bindsym $mod+Shift+minus move scratchpad
 # If there are multiple scratchpad windows, this command cycles through them.
 bindsym $mod+minus scratchpad show
 
-set $w1 " 1: $ "
-set $w2 " 2: www "
+set $w1 "1: $ "
+set $w2 "2: www "
 
 # switch to workspace
 bindsym $mod+1 workspace $w1
@@ -185,14 +185,9 @@ bar {
 
 # Remove borders for specific windows
 for_window [class="^.*"] border pixel 0
-#for_window [class="^chromium"] border pixel 0
-#for_window [class="^urxvt"] border pixel 2
-#for_window [class="^chromium"] border pixel 0
 
 # Set background
-#exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/Arch_Dark.png
 exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/Black_Shapes.jpg
-#exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/hexlake.jpg
 
 # i3lock
 bindsym $mod+u exec ~/.local/bin/fuzzy_lock.sh
@@ -206,6 +201,11 @@ exec --no-startup-id xbindkeys -p
 
 # Dropbox
 exec --no-startup-id dropbox-cli start
+
+# Autostart windows
+exec --no-startup-id i3-msg "workspace $w1; exec urxvt"
+exec --no-startup-id i3-msg "workspace $w2; exec chromium"
+exec --no-startup-id i3-msg "workspace $w1"
 
 # gaps
 gaps inner 20
