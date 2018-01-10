@@ -38,8 +38,8 @@ URxvt.font:         xft:DejaVuSansMono:size=8
 *.color13:      #a36ac7
 
 ! cyan
-*.color6:       #3971ed
-*.color14:      #3971ed
+*.color6:       #34d6d6
+*.color14:      #34d6d6
 
 ! white
 *.color7:       #c5c8c6

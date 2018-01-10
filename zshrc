@@ -104,6 +104,7 @@ compinit
 
 # todo.txt
 alias t='$HOME/todo.txt_cli-2.10/todo.sh -d ~/todo.txt_cli-2.10/todo.cfg'
+alias i3exit='$HOME/.local/bin/i3exit.sh'
 
 # Turn carriage returns into newlines
 stty icrnl
