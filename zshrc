@@ -103,8 +103,14 @@ autoload -Uz compinit
 compinit
 
 # todo.txt
-alias t='$HOME/todo.txt_cli-2.10/todo.sh -d ~/todo.txt_cli-2.10/todo.cfg'
+alias t='$HOME/.local/bin/todo.txt_cli-2.10/todo.sh -d $HOME/.local/bin//todo.txt_cli-2.10/todo.cfg'
 alias i3exit='$HOME/.local/bin/i3exit.sh'
 
 # Turn carriage returns into newlines
 stty icrnl
+
+# Scripts
+export PATH=$PATH:~/.local/bin/
+
+# flatpak applications
+export PATH="${PATH}:/home/liam/.local/share/flatpak/exports/share/applications:/var/lib/flatpak/exports/share/applications"

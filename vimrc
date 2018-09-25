@@ -9,5 +9,8 @@
 :set smarttab
 execute pathogen#infect()
 filetype plugin indent on
+:set vb t_vb=
+:set textwidth=80
 
 set spelllang=en
+:set clipboard=unnamed

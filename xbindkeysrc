@@ -62,6 +62,21 @@
     m:0x0 + c:121
 	XF86AudioMute
 
+# Go to terminal workspace
+"i3-msg 'workspace 1: $ '"
+    m:0x0 + c:163
+    XF86Mail
+
+# Go to Chromium
+"i3-msg 'workspace 2: www '"
+    m:0x0 + c:180
+    XF86HomePage
+
+# Go to music
+"i3-msg 'workspace 10: ♪'"
+    m:0x0 + c:179
+    XF86Tools
+
 # Examples of commands:
 
 "xbindkeys_show" 
