@@ -103,7 +103,8 @@ autoload -Uz compinit
 compinit
 
 # todo.txt
-alias t='$HOME/.local/bin/todo.txt_cli-2.10/todo.sh -d $HOME/.local/bin//todo.txt_cli-2.10/todo.cfg'
+alias todo=todo.sh
+
 alias i3exit='$HOME/.local/bin/i3exit.sh'
 
 # Turn carriage returns into newlines
