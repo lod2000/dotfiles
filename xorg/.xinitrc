@@ -14,3 +14,4 @@ xinput --set-prop 'DLL0704:01 06CB:76AE Touchpad' 'libinput Middle Emulation Ena
 [[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
 
 exec i3
+     
