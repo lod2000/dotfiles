@@ -2,7 +2,7 @@
 xrdb -merge ~/.Xresources
 
 ! Set DPI
-xrandr --dpi 220
+!xrandr --dpi 220
 
 ! Mouse and trackpad
 xinput --set-prop 'DLL0704:01 06CB:76AE Touchpad' 'libinput Natural Scrolling Enabled' 1
