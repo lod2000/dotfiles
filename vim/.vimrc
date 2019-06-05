@@ -7,7 +7,7 @@
 :set softtabstop=0
 :set expandtab
 :set smarttab
-execute pathogen#infect()
+"execute pathogen#infect()
 filetype plugin indent on
 :set vb t_vb=
 :set textwidth=80

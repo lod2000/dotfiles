@@ -203,11 +203,8 @@ exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.png
 
 # lock screen
 set $lock_script ~/.local/bin/lock.sh
-#bindsym $mod+u exec i3lock -i ~/Pictures/wallpaper.png
-#bindsym $mod+u exec ~/.local/bin/fuzzy_lock.sh
 bindsym $mod+u exec $lock_script
 exec --no-startup-id xautolock -time 10 -locker '$lock_script' &
-#exec --no-startup-id xss-lock -- ~/.local/bin/lock.sh
 
 # Compton
 exec --no-startup-id compton -b
@@ -226,7 +223,7 @@ assign [class="^Firefox$"] $w2
 assign [class="^Clementine$"] $w10
 
 # Autostart windows
-exec i3-msg "exec urxvt"
+# exec i3-msg "exec urxvt"
 
 # gaps
 gaps inner 10
