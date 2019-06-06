@@ -199,7 +199,7 @@ bar {
 for_window [class="^.*"] border pixel 1
 
 # Set background
-exec --no-startup-id feh --bg-scale ~/Pictures/wallpaper.png
+exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/default.png
 
 # lock screen
 set $lock_script ~/.local/bin/lock.sh
