@@ -111,6 +111,7 @@ bindsym $mod+minus scratchpad show
 
 set $w1 "1: $"
 set $w2 "2: www"
+set $w9 "9: kee"
 set $w10 "10: ♪"
 
 # switch to workspace
@@ -220,6 +221,7 @@ exec --no-startup-id redshift -c ~/.config/redshift/redshift.conf
 
 # Window assignments
 assign [class="^Firefox$"] $w2
+assign [class="^KeepassXC$"] $w9
 assign [class="^Clementine$"] $w10
 
 # Autostart windows
