@@ -216,6 +216,9 @@ exec --no-startup-id xbindkeys -p
 # Dropbox
 exec --no-startup-id dropbox
 
+# MEGAsync
+exec --no-startup-id megasync
+
 # Redshift
 exec --no-startup-id redshift -c ~/.config/redshift/redshift.conf
 
