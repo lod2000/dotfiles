@@ -208,16 +208,13 @@ exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/default.png
 # lock screen
 set $lock_script ~/.local/bin/lock.sh
 bindsym $mod+u exec $lock_script
-exec --no-startup-id xautolock -time 10 -locker '$lock_script' &
+exec --no-startup-id xautolock -time 10 -locker '$lock_script' -corners ---- &
 
 # Compton
 exec --no-startup-id compton -b
 
 # Multimedia keys
 exec --no-startup-id xbindkeys -p
-
-# NetworkManager applet
-exec --no-startup-id nm-applet
 
 # Dropbox
 exec --no-startup-id dropbox
@@ -226,7 +223,7 @@ exec --no-startup-id dropbox
 exec --no-startup-id megasync
 
 # Redshift
-exec --no-startup-id redshift -c ~/.config/redshift/redshift.conf
+exec --no-startup-id redshift -c ~/.config/redshift.conf
 
 # Window assignments
 assign [class="^Firefox$"] $w2
