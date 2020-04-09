@@ -237,6 +237,9 @@ exec --no-startup-id redshift -c ~/.config/redshift.conf
 # Dunst notification daemon
 exec --no-startup-id /usr/bin/dunst
 
+# Bluetooth applet
+exec --no-startup-id blueman-applet
+
 # Window assignments
 assign [class="^Firefox$"] $w2
 assign [class="^KeepassXC$"] $w9
