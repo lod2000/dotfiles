@@ -212,7 +212,7 @@ bar {
 for_window [class="^.*"] border pixel 1
 
 # Set background
-exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/default.png
+exec feh --bg-fill --no-xinerama ~/Pictures/Wallpapers/default.png
 
 # lock screen
 set $lock_script ~/.local/bin/lock.sh
@@ -248,6 +248,9 @@ assign [class="^Clementine$"] $w10
 
 # Autostart windows
 # exec i3-msg "exec urxvt"
+
+# External monitor settings
+#exec xrandr --output eDP1 --mode 1920x1080 --output DP2 --pos 1920x0
 
 # gaps
 gaps inner 10
