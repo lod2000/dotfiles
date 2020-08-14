@@ -218,7 +218,7 @@ exec feh --bg-fill --no-xinerama ~/Pictures/Wallpapers/default.png
 set $lock_script ~/.local/bin/lock.sh
 bindsym $mod+u exec $lock_script
 #exec --no-startup-id xautolock -time 10 -locker '$lock_script' -corners ---- &
-exec --no-startup-id xss-lock -- $lock_script
+#exec --no-startup-id xss-lock -- $lock_script
 
 # Compton
 exec --no-startup-id compton -b
